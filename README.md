@@ -1,4 +1,4 @@
-# Lyapunov_Coefficient_Calculator
+# Lyapunov_Exponent_Calculator
 This repository contains a function to compute the Lyapunov coefficient, which is used as a measure of chaotic behavior, based on the Lorenz Attractor.
 
 
@@ -16,4 +16,7 @@ $$
 
 where $\sigma$, $\rho$, and $\beta$ are dimensionless parameters representing the Prandtl number, the Rayleigh number, and the geometric physical dimensions of the layer, respectively.
 
+The goal of our algorithm is to compute the so-called Lyapunov Coefficiente, interpreted as a
+
+given by:
 
