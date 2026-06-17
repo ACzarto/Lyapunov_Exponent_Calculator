@@ -22,4 +22,12 @@ $$\lambda_{\max} = \lim_{t \to \infty} \lim_{d_0 \to 0} \frac{1}{t} \ln \left( \
 
 For the function it will be used the Oseledets Method that uses the Jacobian Matrix and in the case of the Lorentz Atractor, we will have 3 Lyapunov Exponents.
 
+The obtained values are in fact what would be expected in the literature:
+
+$$\lambda_1 \approx 0.9$$
+
+$$\lambda_2 \approx 0$$
+
+$$\lambda_3 \approx -14.55$$
+
 
