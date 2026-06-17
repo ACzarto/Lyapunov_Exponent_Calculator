@@ -16,7 +16,10 @@ $$
 
 where $\sigma$, $\rho$, and $\beta$ are dimensionless parameters representing the Prandtl number, the Rayleigh number, and the geometric physical dimensions of the layer, respectively.
 
-The goal of our algorithm is to compute the so-called Lyapunov Coefficiente, interpreted as a
+The goal of our algorithm is to compute the so-called Lyapunov Exponent, given by:
 
-given by:
+$$\lambda_{\max} = \lim_{t \to \infty} \lim_{d_0 \to 0} \frac{1}{t} \ln \left( \frac{d(t)}{d_0} \right)$$
+
+For the function it will be used the Oseledets Method that uses the Jacobian Matrix and in the case of the Lorentz Atractor, we will have 3 Lyapunov Exponents.
+
 
